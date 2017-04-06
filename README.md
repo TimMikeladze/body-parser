@@ -88,7 +88,7 @@ the following keys:
 This example demonstrates adding a generic JSON and URL-encoded parser as a top-level middleware, which will parse the bodies of all incoming requests. This is the simplest setup.
 
 ```lua
-local json = requrie('json')
+local json = require('json')
 local Utopia = require('utopia')
 local bodyParser = require('body-parser')
 
